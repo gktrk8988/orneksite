@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(img/arkaplan.jpg) ;
+    background-size: cover;
+}
+
+.header-content{
+    height: 70vh;
+}
+
+.row{
+    width: 100%;
+    
+}
+.accordion button{
+    background: gray;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(82,82,82);
+    color: white;
+}
+.accordion button:focus{
+    box-shadow: none;
+    border: none;
+}
+
+.accordion-item{
+    background-color: gray;
+    border: none;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+    #first {
+        order: 1;
+    }
+    #second {
+        order: 2;
+    }
+    #third {
+        order: 3;
+    }
+    #fourth {
+        order: 4;
+    }
+}
+/* kayit.html */
+.kayitheader{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url(img/arkaplan1.jpg) ;
+    background-size: cover;
+}
+
+.kayitform{
+    background-color: black;
+    width: 100%;
+    padding: 50px;
+}
+.kayitrow{
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+}
+.kayitbutton{
+    width: 100%;
+}
+/* kimizliyor */
+.kimimg{
+    width: 60%;
+}
+.kimimg:hover{
+    border: 2px solid white;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+}
+
+.kimbutton{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-left: 80px;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+    border: solid black;
+    
+}
+
+/* popular.html */
+.popimg{
+    width: 100%;
+}
+.poprow{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer{
+    padding-top: 50px;
+}
+li{
+    font-size: 20px;
+}
+.arkaplan{
+    background-color: white;
+}
+
+
+
+
+
+

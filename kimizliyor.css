@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.kimimg{
+    width: 24%;
+}
+.kimimg:hover{
+    border: 2px solid white;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+}
+.kimbutton{
+    width: 80%;
+    text-align: center;
+    margin: 5rem;
+    background-color: black;
+    color: white;
+    border: solid black;
+    
+}
